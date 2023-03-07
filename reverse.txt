@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main () {
+  std::string str = "hello";
+  int length = str.length();
+  int end = length-1;
+  for( int i = end ; i >= 0 ; i-- ) {
+    std::cout << str[i] << std::endl;
+  }
+}

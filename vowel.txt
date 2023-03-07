@@ -1,0 +1,16 @@
+#include <iostream>
+  
+int main() {
+  std::string ch = "n";
+  if ( (ch == "a") || (ch == "A") || (ch == "e") || (ch == "E") || (ch == "i") ||
+       (ch == "I") || (ch == "o") || (ch == "O") || (ch == "u") || (ch == "U")
+     ) {
+     std::cout << "ch is vowel" << std::endl;
+  }
+  if ( ch == "0" || ch == "1" || ch == "2" || ch == "3" || ch == "4"  ) {
+          std::cout << "ch is digit" << std::endl;
+  }
+  else {
+    std::cout << "ch is consonent" <<std::endl;
+  }
+}

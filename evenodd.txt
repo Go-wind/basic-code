@@ -1,0 +1,10 @@
+#include <iostream>
+  
+int main() {
+  int a = 2;
+  if (a % 2 == 0) {
+    std::cout<< "a is even" <<std::endl;
+  } else {
+     std::cout<< "a is not even" <<std::endl;
+  }
+}
